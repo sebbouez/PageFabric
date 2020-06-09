@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<pf:BoxDecoration xmlns:pf="http://schemas.getpagefabric.com/2020/boxDecorationDefinition">
+
+  <pf:Author>PageFabric Samples</pf:Author>
+  <!-- The CSS classname to add to the root component -->
+  <pf:CssClassName>pfSamplesBoxDecoration1</pf:CssClassName>
+
+  <pf:Resources>
+    <pf:Resource lang="fr">
+      <pf:Title>Décoration de boite 1</pf:Title>
+      <pf:Description>Une description</pf:Description>
+    </pf:Resource>
+
+    <pf:Resource lang="en">
+      <pf:Title>Box decoration sample 1</pf:Title>
+      <pf:Description>A text description</pf:Description>
+    </pf:Resource>
+  </pf:Resources>
+
+  <pf:CssContent>
+    <![CDATA[
+          .pfSamplesBoxDecoration1
+          {
+            border:2px solid red;
+          }
+          ]]>
+  </pf:CssContent>
+
+</pf:BoxDecoration>
