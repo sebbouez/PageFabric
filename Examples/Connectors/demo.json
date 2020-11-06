@@ -1,0 +1,28 @@
+{
+  "Items": [
+    {
+      "Name": "Product 1",
+      "Description": "A product description"
+    },
+    {
+      "Name": "Product 2",
+      "Description": "A product description"
+    },
+    {
+      "Name": "Product 3",
+      "Description": "A product description"
+    },
+    {
+      "Name": "Product 4",
+      "Description": "A product description"
+    },
+    {
+      "Name": "Product 5",
+      "Description": "A product description"
+    },
+    {
+      "Name": "Product 6",
+      "Description": "A product description"
+    }
+  ]
+}
