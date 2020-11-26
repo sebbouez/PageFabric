@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="utf-8">
+<head>
+    <script src="local://pfapi.js"></script>
+</head>
+<body>
+
+<script>
+(async () => {
+    let appVersion = await PageFabric.Client.GetApplicationVersionAsync();
+    document.write("Hello from PageFabric V" + appVersion);
+})();
+</script>
+
+</body>
+</html>
