@@ -1,0 +1,135 @@
+html,
+body {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    color: #212121;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+a {
+    color: #2680EB;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin: 0px 0px 5px 0px;
+}
+
+.thumbnail {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    background: #fff;
+}
+
+.tplItem {
+    padding: 15px 15px 15px 15px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.tplItem:hover {
+    background:#f0f0f0;
+}
+
+.tplItem strong {
+    font-size:18px;
+    color:#444;
+}
+
+
+.tplItem img {
+    border:1px solid #ccc;
+}
+
+.tagsBar {
+    margin: 10px 0px 0px 0px;
+}
+
+.tag {
+    display: inline-block;
+    border-radius: 15px;
+    padding: 4px 10px;
+    background: #22c1c3;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.tag:hover {
+    background: #1EA0A0;
+}
+
+.tag:hover {
+    text-decoration: none;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 6px 10px;
+    background: #2680EB;
+    color: #fff;
+    font-weight: 600;
+}
+
+.button:hover {
+    background: #1965C0;
+    text-decoration: none;
+}
+
+.button[disabled],
+.button[disabled]:hover {
+    background: #ccc !important;
+    cursor: default;
+}
+
+header {
+    padding: 15px;
+    background:#2680EB;
+    background: linear-gradient(125deg, rgba(0,172,255,1) 0%, rgba(38,128,235,1) 100%);
+    color:#fff;
+}
+
+h1 {
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.cancelCallout
+{
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    color:#fff;
+    background:#2680EB;
+    padding:15px;
+    z-index:90;
+}
+
+.cancelCallout a {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 6px 10px;
+    background: #fff;
+    color: #2680EB;
+    font-weight: 600;
+}
+
+.cancelCallout a:hover{
+    opacity: 0.8;
+}
