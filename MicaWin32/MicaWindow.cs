@@ -24,7 +24,7 @@ namespace WpfApp1
             ApplyMica(windowHandleSource, false);
         }
 
-        public static void ApplyMica(HwndSource source, bool dark)
+        private static void ApplyMica(HwndSource source, bool dark)
         {
             int attrValue = 1;
 
