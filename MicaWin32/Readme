@@ -1,1 +1,16 @@
 Mica for Win32, WPF Sample
+
+The key things are:
+
+1. Make your window inherit from MicaWindow class provided
+2. Use Transparent as window background
+3. On your WPF window, you must use this WindowChrome config (otherwise, it won't work):
+
+<WindowChrome.WindowChrome>
+        <WindowChrome
+        CaptionHeight="32"
+        ResizeBorderThickness="8"
+        CornerRadius="0"
+        GlassFrameThickness="-1"
+        UseAeroCaptionButtons="True" />
+</WindowChrome.WindowChrome>
