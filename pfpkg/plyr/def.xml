@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Package>
+	<Metadata>
+		<Name>Plyr</Name>
+		<Version>3.6.0.0</Version>
+		<Authors>Sam Potts</Authors>
+		<LicenseUrl>https://github.com/sampotts/plyr/blob/master/LICENSE.md</LicenseUrl>
+		<ProjectUrl>https://github.com/sampotts/plyr</ProjectUrl>
+		<Description>A simple HTML5, YouTube and Vimeo player.</Description>
+		<ReleaseNotes>https://github.com/sampotts/plyr</ReleaseNotes>
+		<Copyright>Sam Potts</Copyright>
+	</Metadata>
+	<Settings>
+		<IsDesignerIgnored>true</IsDesignerIgnored>
+	</Settings>
+	<BuildActions>
+
+		<IncludeResource>plyr.js</IncludeResource>
+		<IncludeResource>plyr.css</IncludeResource>
+
+		<ImportResource>plyr.css</ImportResource>
+		<ImportResource>plyr.js</ImportResource>
+
+	</BuildActions>
+</Package>
